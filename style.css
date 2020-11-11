@@ -112,7 +112,7 @@ h1 {
   left: 350px;
 }
 .colonna{
-  height: 500px;
+  height: 475px;
   width: 100%;
 }
 .box {
@@ -147,4 +147,28 @@ h1 {
   width: 20%;
   border: 1px solid gray;
   margin: 10px  auto;
+}
+.colonna:nth-child(2){
+  border-top: 1px solid gray;
+}
+.box-2 {
+  width: 50%;
+  height: 100%;
+
+}
+.img-box-2 {
+  height: 100%;
+  text-align: center;
+  margin: 25px auto;
+  position: relative;
+}
+.titolo2{
+  width: 50%;
+  font-size: 30px;
+  margin: 50px 0 10px;
+}
+.text2{
+  width: 50%;
+  font-size: 17px;
+  margin-bottom: 15px;
 }
