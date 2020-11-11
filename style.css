@@ -4,7 +4,7 @@
   padding: 0;
 }
 .container{
-  width: 1327px;
+  width: 1320px;
   margin: auto;
 }
 .clearfix{
@@ -14,7 +14,7 @@
 }
 .float-l{
   float:left;
-  line-height: 60px;
+
 }
 .float-r {
   float: right;
@@ -64,7 +64,7 @@ span a{
 .piano{
   color: white;
   border: 0;
-  background-color: #95c833
+  background-color: #95c833;
 }
 .copertina {
   height: 400px;
@@ -110,4 +110,41 @@ h1 {
   position: absolute;
   top: 60px;
   left: 350px;
+}
+.colonna{
+  height: 500px;
+  width: 100%;
+}
+.box {
+  width: 30%;
+  height: 100%;
+  margin-left: 30px;
+  background-color: white;
+}
+.img{
+  height: 100%;
+}
+.img-box{
+  height: 25%;
+  text-align: center;
+  margin: 25px auto;
+}
+.titolo {
+  width: 75%;
+  font-size: 25px;
+  color: #95c833;
+  margin: auto;
+  text-align: center;
+}
+.text{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  color: gray;
+}
+.separatore {
+  height: 1px;
+  width: 20%;
+  border: 1px solid gray;
+  margin: 10px  auto;
 }
